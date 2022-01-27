@@ -19,8 +19,7 @@ namespace SchoolManagement.Models
         {
             this.Enrollment = new HashSet<Enrollment>();
         }
-
-
+    
         public int CourseID { get; set; }
         public string Title { get; set; }
         public int Credits { get; set; }
