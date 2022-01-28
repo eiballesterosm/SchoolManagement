@@ -10,6 +10,8 @@
         <EntityTypeShape EntityType="SchoolModel.Student" Width="1.5" PointX="8.25" PointY="1.125" IsExpanded="true" />
         <AssociationConnector Association="SchoolModel.FK_dbo_Enrollment_dbo_Course_CourseID" ManuallyRouted="false" />
         <AssociationConnector Association="SchoolModel.FK_dbo_Enrollment_dbo_Student_StudentID" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="SchoolModel.Lecturers" Width="1.5" PointX="0.75" PointY="3.875" />
+        <AssociationConnector Association="SchoolModel.FK_dbo_Enrollment_dbo_Lecturers_LecturerID" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
