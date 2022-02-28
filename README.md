@@ -1,0 +1,3 @@
+# SchoolManagement
+
+ASP.NET MVC
